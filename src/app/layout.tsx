@@ -16,11 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='w-full bg-black' style={font.style}>
+      <body className='w-full bg-white' style={font.style}>
         <div className='flex flex-col w-full' style={{height:'100dvh'}}>
 
         <Header/>
-        <div className='mx-auto flex flex-col grow w-full h-full max-w-[900px]'>
+        <div className='mx-auto flex flex-col grow w-full h-full px-3 max-w-[900px]'>
         {children}
         </div>
         </div>
