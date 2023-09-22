@@ -20,7 +20,7 @@ export default function RootLayout({
         <div className='flex flex-col w-full' style={{height:'100dvh'}}>
 
         <Header/>
-        <div className='mx-auto flex flex-col grow w-full h-full px-3 max-w-[900px]'>
+        <div className='mx-auto flex flex-col grow w-full h-full max-w-[900px] px-4'>
         {children}
         </div>
         </div>

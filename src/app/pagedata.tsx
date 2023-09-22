@@ -122,8 +122,6 @@ const PageData = ({
 
 export default PageData;
 
-
-
 function getWeatherDescription(code: number): string {
   const weatherCodes: { [key: number]: string } = {
       // Group 2xx: Thunderstorm
