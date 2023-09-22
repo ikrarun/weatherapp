@@ -1,6 +1,6 @@
 import '@/_styles/globals.css'
 import type { Metadata } from 'next'
-import { Raleway as Font } from 'next/font/google'
+import { Outfit as Font } from 'next/font/google'
 import Header from '@/_components/Navigation/header'
 const font = Font({ subsets: ['latin'] })
 
@@ -16,10 +16,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='w-full' style={font.style}>
-        <div className='mx-auto max-w-[900px]'>
+      <body className='w-full bg-black' style={font.style}>
+        <div className='flex flex-col w-full' style={{height:'100dvh'}}>
+
         <Header/>
+        <div className='mx-auto flex flex-col grow w-full h-full max-w-[900px]'>
         {children}
+        </div>
         </div>
         </body>
     </html>
