@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='w-full bg-black' style={font.style}>
+      <body className='w-full bg-white' style={font.style}>
         <div className='flex flex-col w-full' style={{height:'100dvh'}}>
 
         <Header/>
