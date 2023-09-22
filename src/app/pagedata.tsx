@@ -10,7 +10,7 @@ enum AQILabel {
     Poor = 4,
     VeryPoor = 5,
   }
-const pagedata = ({
+const PageData = ({
   data,
   cityname,
   pollution
@@ -103,4 +103,4 @@ const pagedata = ({
     );
 };
 
-export default pagedata;
+export default PageData;
